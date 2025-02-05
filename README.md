@@ -42,6 +42,10 @@ ADMIN_API_KEY=tu_clave_secreta
 DB_USER=usuario_database
 DB_NAME=nombre_database
 DB_PASSWORD=contraseña_database
+
+-------------------Frontend------------------------
+
+URL_FRONTEND=url_del_frontend
 ```
 
 ### 4️⃣ Ejecuta la base de datos con Prisma
