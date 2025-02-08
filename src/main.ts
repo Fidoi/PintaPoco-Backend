@@ -22,6 +22,8 @@ async function bootstrap() {
   });
   app.use(json({ limit: '10mb' }));
   app.use(urlencoded({ limit: '10mb', extended: true }));
-  await app.listen(3000);
+  const PORT = process.env.PORT || 3000;
+  await app.listen(PORT);
+  console.log(`Servidor corriendo en el puerto ${PORT}`);
 }
 bootstrap();
